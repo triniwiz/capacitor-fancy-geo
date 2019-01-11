@@ -2,7 +2,7 @@ import { Component, ElementRef, Inject, Input, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { Plugins } from '@capacitor/core';
 
-const {Geolocation, Network} = Plugins;
+const {Geo, Network} = Plugins;
 
 @Component({
     selector: 'google-map',
@@ -22,7 +22,6 @@ export class GoogleMapComponent {
     }
 
     ngOnInit() {
-
         this.init().then((res) => {
             console.log('Google Maps ready.')
         }, (err) => {

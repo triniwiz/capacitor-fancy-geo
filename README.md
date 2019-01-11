@@ -10,9 +10,9 @@
 ```typescript
 import 'capacitor-fancy-geo'
 import { Plugins } from '@capacitor/core';
-const { FancyGeo, FenceTransition } = Plugins;
+const { Geo, FenceTransition } = Plugins;
 
-const has = await FancyGeo.hasPermission();
+const has = await Geo.hasPermission();
 if(has){
             let notification =  {id: 0, title: "Test", body: "Test Body"};
             let circle = {
@@ -23,9 +23,9 @@ if(has){
                 points: [lat, lon], radius: 1000
                 };
 
-   const result = await FancyGeo.createCircleFence(circle);
+   const result = await Geo.createCircleFence(circle);
 }else{
-   const got = await FancyGeo.requestPermission({always: true}) // use location services at any time IOS only
+   const got = await Geo.requestPermission({always: true}) // use location services at any time IOS only
 }
 
 ```
