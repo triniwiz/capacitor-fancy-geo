@@ -1,0 +1,6 @@
+{
+  "appId": "co.fitcom.capacitor.demo.geo",
+  "appName": "CAPFancyGeoDemo",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

@@ -1,0 +1,35 @@
+PODS:
+  - Capacitor (1.0.0-beta.12):
+    - CapacitorCordova (= 1.0.0-beta.12)
+  - CapacitorCordova (1.0.0-beta.12)
+  - CapacitorFancyGeo (0.0.1):
+    - Capacitor
+    - FancyGeo
+  - FancyGeo (0.0.1)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - CapacitorFancyGeo (from `../../node_modules/capacitor-fancy-geo`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FancyGeo
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorFancyGeo:
+    :path: "../../node_modules/capacitor-fancy-geo"
+
+SPEC CHECKSUMS:
+  Capacitor: 95a02969f90a0384263d8dd3a0930548c5eb4d3f
+  CapacitorCordova: 0ac0f51826feddef37d1ef8a8f6ff8c8b1ed0dd3
+  CapacitorFancyGeo: 04c146425b65492bfaf3e672d8d3d6f7eda4b86a
+  FancyGeo: 75fbe00370aa3e77447afb993d9ef0935890aa74
+
+PODFILE CHECKSUM: 8d674014359603cf0339f68827deb8be28c0fbb2
+
+COCOAPODS: 1.5.3
